@@ -170,7 +170,7 @@ class Form extends Component {
               </div>
             </div>
 
-            {this.state.post == "Other" ? <FormInput /> : console.log("Failed")}
+            {this.state.post == "Other:" ? <FormInput /> : console.log("Failed")}
 
             <div className="form-group mt-3">
               <label>Feedback *</label>
