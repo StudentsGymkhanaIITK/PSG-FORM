@@ -13,7 +13,7 @@ export class Navigation extends Component {
         className="width"
         variant="dark"
       >
-        <Navbar.Brand href="/">President Query Form</Navbar.Brand>
+        <Navbar.Brand href="/">Complaint Form</Navbar.Brand>
       </Navbar>
     );
   }
