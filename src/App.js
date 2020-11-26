@@ -7,14 +7,14 @@ import store from "./store";
 
 function App() {
   return (
-    <Provider store={store}>
-      <Fragment>
+  //   <Provider store={store}>
+  //     <Fragment>
         <div className="App" >
           <Navigation />
           <Routes />
         </div>
-      </Fragment>
-    </Provider>
+    //   {/* </Fragment>
+    // </Provider> */}
   );
 }
 export default App;
