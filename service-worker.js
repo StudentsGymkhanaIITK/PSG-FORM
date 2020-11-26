@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/PSG-FORM/precache-manifest.6b6ff2d23a3a763dffc135b1f01f461a.js"
+  "/PSG-FORM/precache-manifest.cc1885e319cc38bf92151e59e16fb4a4.js"
 );
 
 self.addEventListener('message', (event) => {
