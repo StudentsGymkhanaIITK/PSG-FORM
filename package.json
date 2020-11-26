@@ -2,7 +2,7 @@
   "name": "reactbuttonexample",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://sparshs413.github.io/PSG-FORM",
+  "homepage": "https://sparshs413.github.io/PSG-FORM",
   "dependencies": {
     "axios": "^0.20.0",
     "bootstrap": "^4.5.3",

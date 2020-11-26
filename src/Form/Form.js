@@ -109,26 +109,25 @@ class Form extends Component {
             </div>
 
             <div className="form-group">
-              <label>Email *</label>
+              <label>IITK Email ID *</label>
               <input
                 className="form-control"
                 type="email"
                 name="entry.1660967211"
                 onChange={this.onChange}
-                placeholder="IITK Email Address Only"
                 required
               />
             </div>
 
             <div className="form-group">
-              <label>What do you want to ask ? *</label>
+              <label>What is the Domain of your Complaint?  *</label>
               <div className="form-group">
                 <select
                   className="form-control"
                   name="entry.2119653361"
                   onChange={this.handleInputChange}
                 >
-                  <option defaultValue>What do you want to Ask ? *</option>
+                  <option defaultValue>What is the Domain of your Complaint? *</option>
                   <option value="Academic Affairs for Undergraduate Students">
                     Academic Affairs for Undergraduate Students
                   </option>
@@ -173,7 +172,7 @@ class Form extends Component {
             {this.state.post == "Other:" ? <FormInput /> : console.log("Failed")}
 
             <div className="form-group mt-3">
-              <label>Feedback *</label>
+              <label>Your Complaint *</label>
               <input
                 className="form-control"
                 type="text"
@@ -184,14 +183,13 @@ class Form extends Component {
             </div>
 
             <div className="form-group mt-3">
-              <label>Suggestions For Improvement *</label>
+              <label>Suggestions (If Any)</label>
               <textarea
                 className="form-control"
                 type="text"
                 name="entry.228886821"
                 onChange={this.onChange}
                 rows="5"
-                required
               />
             </div>
 
